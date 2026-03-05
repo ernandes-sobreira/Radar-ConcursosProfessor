@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Radar — Concursos Professor (UF/IF/SEDUC)</title>
+  <style>
+    :root{--bg:#0b1020;--card:#121a3a;--muted:#b9c6ff;--text:#eaf0ff;--line:rgba(255,255,255,.12);--good:#27e0a3;--warn:#ffcc66;--bad:#ff6b6b;--btn:#2b57ff;}
+    *{box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial}
+    body{margin:0;background:linear-gradient(180deg,#070b18,#0b1020);color:var(--text)}
+    header{padding:18px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(11,16,32,.92);backdrop-filter: blur(8px);z-index:10}
+    h1{margin:0;font-size:18px}
+    .sub{margin-top:6px;color:var(--muted);font-size:13px;display:flex;gap:10px;flex-wrap:wrap}
+    .pill{border:1px solid var(--line);padding:4px 10px;border-radius:999px}
+    main{padding:14px 16px;max-width:1100px;margin:0 auto}
+    .grid{display:grid;gap:12px;grid-template-columns:repeat(12,1fr)}
+    .panel{grid-column:span 12;background:rgba(18,26,58,.85);border:1px solid var(--line);border-radius:14px;padding:12px}
+    @media(min-width:900px){.panel.filters{grid-column:span 4}.panel.results{grid-column:span 8}}
+    label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}
+    input,select{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:#0c1330;color:var(--text);outline:none}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+    .btnbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    button{cursor:pointer;border:0;background:var(--btn);color:white;padding:10px 12px;border-radius:10px;font-weight:600}
+    button.secondary{background:#1f2b5a;border:1px solid var(--line)}
+    .kpi{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .kpi .box{padding:8px 10px;border-radius:12px;border:1px solid var(--line);background:rgba(12,19,48,.7);font-size:12px;color:var(--muted)}
+    .cards{display:grid;gap:10px}
+    .card{border:1px solid var(--line);background:rgba(12,19,48,.75);border-radius:14px;padding:12px}
+    .top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+    .title{font-weight:800;font-size:14px}
+    .tag{font-size:11px;padding:3px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+    .tag.hot{border-color:rgba(39,224,163,.35);color:var(--good)}
+    .tag.soon{border-color:rgba(255,204,102,.35);color:var(--warn)}
+    .tag.late{border-color:rgba(255,107,107,.35);color:var(--bad)}
+    .meta{margin-top:8px;display:grid;gap:6px;color:var(--muted);font-size:12px}
+    .links{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+    a.btn{display:inline-flex;gap:8px;align-items:center;text-decoration:none;color:white;background:#1f2b5a;border:1px solid var(--line);padding:8px 10px;border-radius:10px;font-size:12px}
+    .focusbar{margin-top:10px;color:var(--muted);font-size:12px}
+    footer{padding:18px 16px;color:var(--muted);font-size:12px;text-align:center}
+    .small{font-size:11px;color:var(--muted)}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Radar — Concursos de Professor (UF / IF / Ensino Médio/Fundamental)</h1>
+  <div class="sub">
+    <span class="pill">Foco: Ambiental / Biologia / Ecologia</span>
+    <span class="pill">Prioridade: UFMT + UNEMAT</span>
+    <span class="pill" id="lastUpdate">Atualização: —</span>
+  </div>
+</header>
+
+<main class="grid">
+  <section class="panel filters">
+    <div class="focusbar">
+      Seu perfil: <b>Ciências Biológicas</b> (grad.) • <b>Ecologia e Conservação</b> (M/D).<br/>
+      Dica: deixe “UFMT” e “UNEMAT” marcadas pra prioridade.
+    </div>
+
+    <div style="margin-top:12px">
+      <label>Buscar (qualquer palavra)</label>
+      <input id="q" placeholder="ex: ecologia, biologia, EBTT, ciências ambientais">
+    </div>
+
+    <div style="margin-top:10px" class="row">
+      <div>
+        <label>Instituição</label>
+        <select id="inst">
+          <option value="">Todas</option>
+          <option>UFMT</option>
+          <option>UNEMAT</option>
+          <option>IFMT</option>
+          <option>IF (outros)</option>
+          <option>Universidade (outras)</option>
+          <option>SEDUC/Prefeitura</option>
+        </select>
+      </div>
+      <div>
+        <label>Tipo</label>
+        <select id="tipo">
+          <option value="">Todos</option>
+          <option value="magisterio_superior">Magistério Superior</option>
+          <option value="ebtt">EBTT (Institutos Federais)</option>
+          <option value="fund_med">Ens. Fundamental/Médio</option>
+        </select>
+      </div>
+    </div>
+
+    <div style="margin-top:10px" class="row3">
+      <div>
+        <label>Área (macro)</label>
+        <select id="area">
+          <option value="">Todas</option>
+          <option value="bio">Biologia</option>
+          <option value="eco">Ecologia/Conservação</option>
+          <option value="amb">Ambiental</option>
+        </select>
+      </div>
+      <div>
+        <label>Estado</label>
+        <input id="uf" placeholder="ex: MT, PA, AM">
+      </div>
+      <div>
+        <label>Somente com inscrição aberta</label>
+        <select id="aberto">
+          <option value="">Tanto faz</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="btnbar">
+      <button id="apply">Filtrar</button>
+      <button class="secondary" id="reset">Limpar</button>
+      <button class="secondary" id="prio">Priorizar UFMT+UNEMAT</button>
+    </div>
+
+    <div class="kpi" id="kpis"></div>
+    <div class="small" style="margin-top:8px">
+      * “Prova provável” aparece quando o edital traz data prevista (ou cronograma). O barema normalmente é Anexo/Quadro de títulos.
+    </div>
+  </section>
+
+  <section class="panel results">
+    <div class="cards" id="cards"></div>
+  </section>
+</main>
+
+<footer>Radar v1 — hospedagem grátis (GitHub Pages) + atualização diária (GitHub Actions).</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
