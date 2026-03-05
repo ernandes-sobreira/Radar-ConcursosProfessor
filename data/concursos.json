@@ -1,0 +1,25 @@
+{
+  "last_update": "2026-03-05",
+  "items": [
+    {
+      "id": "ufmt-magisterio-01-2026",
+      "instituicao": "UFMT",
+      "uf": "MT",
+      "tipo": "magisterio_superior",
+      "tipo_label": "Magistério Superior (UF)",
+      "cargo": "Professor (Concurso de Provas e Títulos)",
+      "regime": "20h/40h/DE (varia por vaga)",
+      "vagas": 53,
+      "area_macro": "amb",
+      "area_texto": "Inclui vagas relacionadas a recursos florestais/ambientais (ver quadro de vagas no edital)",
+      "inscricao_inicio": "2026-03-13",
+      "inscricao_fim": "2026-03-30",
+      "prova_prevista": "2026-04-26 (prova escrita — prevista)",
+      "url_inscricao": "https://www.concursos.ufmt.br/AreaRestrita/Inscricao/Concursos.aspx",
+      "url_edital": "https://arq.pciconcursos.com.br/ufmt-abre-concurso-publico-para-professores-do-magisterio-superior/1695713/75e69865a5/edital_n_1_1695713.pdf",
+      "url_cronograma": "https://arq.pciconcursos.com.br/ufmt-abre-concurso-publico-para-professores-do-magisterio-superior/1695713/75e69865a5/edital_n_1_1695713.pdf",
+      "url_barema": "https://arq.pciconcursos.com.br/ufmt-abre-concurso-publico-para-professores-do-magisterio-superior/1695713/75e69865a5/edital_n_1_1695713.pdf",
+      "tags": ["UFMT", "magistério superior", "docente", "ambiental", "recursos florestais", "provas e títulos", "cronograma", "barema"]
+    }
+  ]
+}
