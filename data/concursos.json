@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-03-05",
+  "last_update": "2026-03-06",
   "items": [
     {
       "id": "ufmt-magisterio-01-2026",
@@ -19,7 +19,15 @@
       "url_edital": "https://www.concursos.ufmt.br/AreaRestrita/Inscricao/Concursos.aspx",
       "url_cronograma": "https://www.ufmt.br/campus/cuiaba/noticias/ufmt-abre-60-vagas-para-professores-efetivos-1772628304",
       "url_barema": "https://www.concursos.ufmt.br/AreaRestrita/Inscricao/Concursos.aspx",
-      "tags": ["UFMT", "docente", "magistério superior", "biologia", "ecologia", "ambiental", "provas e títulos"]
+      "tags": [
+        "UFMT",
+        "docente",
+        "magistério superior",
+        "biologia",
+        "ecologia",
+        "ambiental",
+        "provas e títulos"
+      ]
     },
     {
       "id": "unemat-concurso-80-previsto-2026",
@@ -39,7 +47,13 @@
       "url_edital": "https://unemat.br/noticias/19-2-2026-governador-autoriza-concurso-com-80-vagas-para-professor-na-unemat",
       "url_cronograma": "https://unemat.br/noticias/19-2-2026-governador-autoriza-concurso-com-80-vagas-para-professor-na-unemat",
       "url_barema": "https://unemat.br/editais",
-      "tags": ["UNEMAT", "concurso", "docente efetivo", "meio ambiente", "MT"]
+      "tags": [
+        "UNEMAT",
+        "concurso",
+        "docente efetivo",
+        "meio ambiente",
+        "MT"
+      ]
     },
     {
       "id": "ifpi-ebtt-edital-22-2026",
@@ -59,7 +73,13 @@
       "url_edital": "https://concursos.ifpi.edu.br/",
       "url_cronograma": "https://concursos.ifpi.edu.br/",
       "url_barema": "https://concursos.ifpi.edu.br/",
-      "tags": ["IFPI", "EBTT", "docente", "biologia", "ambiental"]
+      "tags": [
+        "IFPI",
+        "EBTT",
+        "docente",
+        "biologia",
+        "ambiental"
+      ]
     },
     {
       "id": "ifc-ebtt-edital-26-2026",
@@ -79,7 +99,14 @@
       "url_edital": "https://dhg1h5j42swfq.cloudfront.net/2026/03/05065810/ifc-professor.pdf",
       "url_cronograma": "https://dhg1h5j42swfq.cloudfront.net/2026/03/05065810/ifc-professor.pdf",
       "url_barema": "https://dhg1h5j42swfq.cloudfront.net/2026/03/05065810/ifc-professor.pdf",
-      "tags": ["IFC", "EBTT", "docente", "prova didática", "títulos", "cronograma"]
+      "tags": [
+        "IFC",
+        "EBTT",
+        "docente",
+        "prova didática",
+        "títulos",
+        "cronograma"
+      ]
     },
     {
       "id": "ufr-magisterio-2026",
@@ -99,7 +126,12 @@
       "url_edital": "https://ufr.edu.br/concursos/23524-2/",
       "url_cronograma": "https://ufr.edu.br/concursos/23524-2/",
       "url_barema": "https://ufr.edu.br/concursos/23524-2/",
-      "tags": ["UFR", "docente", "magistério superior", "MT"]
+      "tags": [
+        "UFR",
+        "docente",
+        "magistério superior",
+        "MT"
+      ]
     },
     {
       "id": "ufsj-magisterio-2026-20v",
@@ -119,7 +151,12 @@
       "url_edital": "https://www.pciconcursos.com.br/noticias/ufsj-mg-abre-concurso-publico-para-o-cargo-de-professor-de-magisterio-superior-com-20-vagas",
       "url_cronograma": "https://www.pciconcursos.com.br/noticias/ufsj-mg-abre-concurso-publico-para-o-cargo-de-professor-de-magisterio-superior-com-20-vagas",
       "url_barema": "https://www.pciconcursos.com.br/noticias/ufsj-mg-abre-concurso-publico-para-o-cargo-de-professor-de-magisterio-superior-com-20-vagas",
-      "tags": ["UFSJ", "docente", "magistério superior", "MG"]
+      "tags": [
+        "UFSJ",
+        "docente",
+        "magistério superior",
+        "MG"
+      ]
     },
     {
       "id": "ufdpar-magisterio-01-2026",
@@ -139,7 +176,39 @@
       "url_edital": "https://ufdpar.edu.br/ufdpar/ufdpar-lanca-edital-de-concurso-publico-para-docentes-do-magisterio-superior",
       "url_cronograma": "https://ufdpar.edu.br/ufdpar/ufdpar-lanca-edital-de-concurso-publico-para-docentes-do-magisterio-superior",
       "url_barema": "https://ufdpar.edu.br/ufdpar/ufdpar-lanca-edital-de-concurso-publico-para-docentes-do-magisterio-superior",
-      "tags": ["UFDPar", "docente", "magistério superior", "PI"]
+      "tags": [
+        "UFDPar",
+        "docente",
+        "magistério superior",
+        "PI"
+      ]
+    },
+    {
+      "id": "unemat-edital-complementar-n-008-divulga-o-do-local-de-realiza-o-da-prova-de-des",
+      "instituicao": "UNEMAT",
+      "uf": "MT",
+      "tipo": "magisterio_superior",
+      "tipo_label": "Docência UNEMAT (recrutamento)",
+      "cargo": "Professor (ver edital/link)",
+      "regime": "—",
+      "vagas": null,
+      "area_macro": "amb",
+      "area_texto": "Edital Complementar nº 008 - Divulgação do local de realização da prova de desempenho didático e ordem de apresentação dos candidatos (Retif",
+      "inscricao_inicio": null,
+      "inscricao_fim": null,
+      "prova_prevista": null,
+      "url_inscricao": "https://cms.unemat.br/storage/documentos/bloco-documento-arquivo/c3rkBbMrwzH5c35bnwLGF2RVwJnczWHJGSX8wEVL.pdf",
+      "url_edital": "https://cms.unemat.br/storage/documentos/bloco-documento-arquivo/c3rkBbMrwzH5c35bnwLGF2RVwJnczWHJGSX8wEVL.pdf",
+      "url_cronograma": "https://cms.unemat.br/storage/documentos/bloco-documento-arquivo/c3rkBbMrwzH5c35bnwLGF2RVwJnczWHJGSX8wEVL.pdf",
+      "url_barema": "https://cms.unemat.br/storage/documentos/bloco-documento-arquivo/c3rkBbMrwzH5c35bnwLGF2RVwJnczWHJGSX8wEVL.pdf",
+      "tags": [
+        "UNEMAT",
+        "docente",
+        "professor",
+        "ambiental",
+        "biologia",
+        "ecologia"
+      ]
     }
   ]
 }
