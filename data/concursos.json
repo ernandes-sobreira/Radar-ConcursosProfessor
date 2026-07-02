@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-01",
+  "last_update": "2026-07-02",
   "items": [
     {
       "id": "ufmt-magisterio-01-2026",
@@ -203,6 +203,33 @@
       "url_barema": "https://cms.unemat.br/storage/documentos/bloco-documento-arquivo/c3rkBbMrwzH5c35bnwLGF2RVwJnczWHJGSX8wEVL.pdf",
       "tags": [
         "UNEMAT",
+        "docente",
+        "professor",
+        "ambiental",
+        "biologia",
+        "ecologia"
+      ]
+    },
+    {
+      "id": "ifmt-estudantes-e-professores-desenvolvem-mapa-digital-para-facilitar-a-localiza",
+      "instituicao": "IFMT",
+      "uf": "MT",
+      "tipo": "ebtt",
+      "tipo_label": "EBTT (IF)",
+      "cargo": "Professor (ver edital/link)",
+      "regime": "—",
+      "vagas": null,
+      "area_macro": "amb",
+      "area_texto": "Estudantes e professores desenvolvem mapa digital para facilitar a localização no Campus Octayde",
+      "inscricao_inicio": null,
+      "inscricao_fim": null,
+      "prova_prevista": null,
+      "url_inscricao": "https://cba.ifmt.edu.br/estudantes-e-docentes-desenvolvem-mapa-digital-para-facilitar-a-localizacao-no-campus-octayde/",
+      "url_edital": "https://cba.ifmt.edu.br/estudantes-e-docentes-desenvolvem-mapa-digital-para-facilitar-a-localizacao-no-campus-octayde/",
+      "url_cronograma": "https://cba.ifmt.edu.br/estudantes-e-docentes-desenvolvem-mapa-digital-para-facilitar-a-localizacao-no-campus-octayde/",
+      "url_barema": "https://cba.ifmt.edu.br/estudantes-e-docentes-desenvolvem-mapa-digital-para-facilitar-a-localizacao-no-campus-octayde/",
+      "tags": [
+        "IFMT",
         "docente",
         "professor",
         "ambiental",
