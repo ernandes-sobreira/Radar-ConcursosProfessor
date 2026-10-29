@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-28",
+  "last_update": "2026-10-29",
   "items": [
     {
       "id": "ufmt-magisterio-01-2026",
@@ -228,6 +228,60 @@
       "url_edital": "https://cba.ifmt.edu.br/estudantes-e-docentes-desenvolvem-mapa-digital-para-facilitar-a-localizacao-no-campus-octayde/",
       "url_cronograma": "https://cba.ifmt.edu.br/estudantes-e-docentes-desenvolvem-mapa-digital-para-facilitar-a-localizacao-no-campus-octayde/",
       "url_barema": "https://cba.ifmt.edu.br/estudantes-e-docentes-desenvolvem-mapa-digital-para-facilitar-a-localizacao-no-campus-octayde/",
+      "tags": [
+        "IFMT",
+        "docente",
+        "professor",
+        "ambiental",
+        "biologia",
+        "ecologia"
+      ]
+    },
+    {
+      "id": "ifmt",
+      "instituicao": "IFMT",
+      "uf": "MT",
+      "tipo": "ebtt",
+      "tipo_label": "EBTT (IF)",
+      "cargo": "Professor (ver edital/link)",
+      "regime": "—",
+      "vagas": null,
+      "area_macro": "amb",
+      "area_texto": "",
+      "inscricao_inicio": null,
+      "inscricao_fim": null,
+      "prova_prevista": null,
+      "url_inscricao": "https://lrv.ifmt.edu.br/estudantes-e-professores-do-ifmt-campus-lucas-do-rio-verde-realizam-plantio-de-arvores-nativas-para-recuperacao-ambiental/",
+      "url_edital": "https://lrv.ifmt.edu.br/estudantes-e-professores-do-ifmt-campus-lucas-do-rio-verde-realizam-plantio-de-arvores-nativas-para-recuperacao-ambiental/",
+      "url_cronograma": "https://lrv.ifmt.edu.br/estudantes-e-professores-do-ifmt-campus-lucas-do-rio-verde-realizam-plantio-de-arvores-nativas-para-recuperacao-ambiental/",
+      "url_barema": "https://lrv.ifmt.edu.br/estudantes-e-professores-do-ifmt-campus-lucas-do-rio-verde-realizam-plantio-de-arvores-nativas-para-recuperacao-ambiental/",
+      "tags": [
+        "IFMT",
+        "docente",
+        "professor",
+        "ambiental",
+        "biologia",
+        "ecologia"
+      ]
+    },
+    {
+      "id": "ifmt-estudantes-e-professores-do-ifmt-campus-lucas-do-rio-verde-realizam-plantio",
+      "instituicao": "IFMT",
+      "uf": "MT",
+      "tipo": "ebtt",
+      "tipo_label": "EBTT (IF)",
+      "cargo": "Professor (ver edital/link)",
+      "regime": "—",
+      "vagas": null,
+      "area_macro": "amb",
+      "area_texto": "Estudantes e professores do IFMT Campus Lucas do Rio Verde realizam plantio de árvores nativas para recuperação ambiental",
+      "inscricao_inicio": null,
+      "inscricao_fim": null,
+      "prova_prevista": null,
+      "url_inscricao": "https://lrv.ifmt.edu.br/estudantes-e-professores-do-ifmt-campus-lucas-do-rio-verde-realizam-plantio-de-arvores-nativas-para-recuperacao-ambiental/",
+      "url_edital": "https://lrv.ifmt.edu.br/estudantes-e-professores-do-ifmt-campus-lucas-do-rio-verde-realizam-plantio-de-arvores-nativas-para-recuperacao-ambiental/",
+      "url_cronograma": "https://lrv.ifmt.edu.br/estudantes-e-professores-do-ifmt-campus-lucas-do-rio-verde-realizam-plantio-de-arvores-nativas-para-recuperacao-ambiental/",
+      "url_barema": "https://lrv.ifmt.edu.br/estudantes-e-professores-do-ifmt-campus-lucas-do-rio-verde-realizam-plantio-de-arvores-nativas-para-recuperacao-ambiental/",
       "tags": [
         "IFMT",
         "docente",
